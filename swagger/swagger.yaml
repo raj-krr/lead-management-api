@@ -13,7 +13,11 @@ info:
     **Authentication:** Click the 🔒 Authorize button and enter: `dectify-secret-key`
 
 servers:
+  - url: https://lead-management-api-oe0j.onrender.com
+    description: Production Server
+
   - url: http://localhost:5000
+    description: Local Development Server
 
 components:
   securitySchemes:

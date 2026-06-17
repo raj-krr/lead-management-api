@@ -150,14 +150,29 @@ Potential future enhancements include:
 * Per-row Failure Reporting
 * Advanced Analytics Dashboard
 * Docker Compose Support
-* Live Cloud Deployment
 * Centralized Logging and Monitoring
 * Distributed Tracing and Observability
 
 These improvements would further increase scalability, reliability, and operational visibility for production environments.
 
 ---
+## Deployment
 
+The application is deployed on Render and exposed through a public HTTPS endpoint. Deployment allows reviewers to interact with the API without local setup and demonstrates readiness for real-world environments.
+
+Deployment includes:
+
+* Public REST API
+* Swagger Documentation
+* PostgreSQL Database
+* Environment Variable Configuration
+* Dockerized Application
+
+Production URL:
+
+https://lead-management-api-oe0j.onrender.com
+
+---
 ## Conclusion
 
 The project was designed with a strong focus on clean architecture, maintainability, configurability, and production-oriented development practices. By combining layered architecture, configurable scoring logic, automated testing, API security, Docker support, Swagger documentation, rate limiting, and CI automation, the solution satisfies both the functional and non-functional requirements of the assessment while remaining extensible for future growth.

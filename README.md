@@ -24,6 +24,7 @@ Built as part of the DECTIFY Backend Intern Technical Assessment.
 | 🐳 Docker Support         | Containerized deployment                       |
 | 🔄 GitHub Actions CI      | Automated build and test pipeline              |
 | 🗄️ PostgreSQL + Prisma   | Relational database with ORM                   |
+| 🌐 Live Deployment | Publicly accessible Render deployment |
 
 ---
 
@@ -124,7 +125,7 @@ swagger/
 ## 1. Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/raj-krr/lead-management-api.git
 cd lead-management-api
 ```
 
@@ -167,8 +168,28 @@ npm run dev
 Server runs on:
 
 ```txt
+Local:
 http://localhost:5000
+
+Production:
+https://lead-management-api-oe0j.onrender.com
 ```
+
+---
+
+# 🌐 Live Deployment
+
+Production API:
+
+https://lead-management-api-oe0j.onrender.com
+
+Swagger Documentation:
+
+https://lead-management-api-oe0j.onrender.com/api-docs
+
+Deployment Platform:
+
+Render
 
 ---
 
@@ -282,54 +303,59 @@ Preferred Range:
 ## Create Lead
 
 ```bash
-curl -X POST http://localhost:5000/api/leads \
+curl -X POST https://lead-management-api-oe0j.onrender.com/api/leads \
 -H "Content-Type: application/json" \
 -H "X-API-Key: dectify-secret-key" \
 -d '{
-"name":"Raj Kumar",
-"email":"raj@example.com",
-"phone":"9876543210",
-"source":"Referral",
-"budgetInr":10000000,
-"location":"Delhi",
-"propertyType":"2BHK",
-"inquiryDate":"2026-05-20",
-"message":"Interested in a property",
-"status":"new"
+  "name":"Raj Kumar",
+  "email":"raj@example.com",
+  "phone":"9876543210",
+  "source":"Referral",
+  "budgetInr":10000000,
+  "location":"Delhi",
+  "propertyType":"2BHK",
+  "inquiryDate":"2026-05-20",
+  "message":"Interested in a property",
+  "status":"new"
 }'
 ```
 
 ## Get Leads
 
 ```bash
-curl -X GET "http://localhost:5000/api/leads?page=1&limit=10" \
+curl -X GET "https://lead-management-api-oe0j.onrender.com/api/leads?page=1&limit=10" \
 -H "X-API-Key: dectify-secret-key"
 ```
 
-## Filter Leads
+## Filter Leads by Score and Source
 
 ```bash
-curl -X GET "http://localhost:5000/api/leads?source=Referral&minScore=50&maxScore=90" \
+curl -X GET "https://lead-management-api-oe0j.onrender.com/api/leads?source=Referral&minScore=50&maxScore=90&sort=desc" \
 -H "X-API-Key: dectify-secret-key"
 ```
 
-## Analytics
+## Filter Leads by Date Range
 
 ```bash
-curl -X GET "http://localhost:5000/api/leads/stats" \
+curl -X GET "https://lead-management-api-oe0j.onrender.com/api/leads?startDate=2026-01-01&endDate=2026-12-31" \
+-H "X-API-Key: dectify-secret-key"
+```
+
+## Lead Analytics
+
+```bash
+curl -X GET "https://lead-management-api-oe0j.onrender.com/api/leads/stats" \
 -H "X-API-Key: dectify-secret-key"
 ```
 
 ## CSV Import
 
 ```bash
-curl -X POST http://localhost:5000/api/import \
+curl -X POST https://lead-management-api-oe0j.onrender.com/api/import \
 -H "X-API-Key: dectify-secret-key" \
 -F "file=@sample_leads.csv"
 ```
-
 ---
-
 # 🧪 Testing
 
 Run tests:
@@ -370,19 +396,22 @@ when the limit is exceeded.
 
 # 📄 Swagger Documentation
 
-Available at:
+Interactive API documentation is available at:
 
-```txt
+Production:
+
+https://lead-management-api-oe0j.onrender.com/api-docs
+
+Local:
+
 http://localhost:5000/api-docs
-```
 
-Use:
+Use the following API Key in the **Authorize** dialog:
 
 ```txt
 dectify-secret-key
 ```
 
-in the Authorize dialog.
 
 ---
 
@@ -442,7 +471,6 @@ Runs automatically on:
 * Role-Based Access Control
 * Background Job Processing
 * Advanced Analytics Dashboard
-* Live Deployment (Render / Railway)
 * Fault-Tolerant CSV Import
 * Per-row Failure Reporting
 * Centralized Logging & Monitoring
