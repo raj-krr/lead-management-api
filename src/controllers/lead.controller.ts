@@ -5,15 +5,25 @@ export const createLead = async (
   req: Request,
   res: Response
 ) => {
-  const lead =
-    await LeadService.createLead(
-      req.body
-    );
+try {
+  const lead = await LeadService.createLead(req.body);
 
   res.status(201).json({
     success: true,
     data: lead,
   });
+
+} catch (error: any) {
+
+  if (error.code === "P2002") {
+    return res.status(409).json({
+      success: false,
+      message: "Lead with this email already exists",
+    });
+  }
+
+  throw error;
+}
 };
 
 export const getLeads = async (

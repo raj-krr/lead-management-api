@@ -32,23 +32,49 @@ export class LeadService {
 
   static async deleteLead(id: number) {
     return LeadRepository.delete(id);
-    }
-    static async updateLead(
+  }
+  
+static async updateLead(
   id: number,
   data: any
 ) {
+
+  const existing =
+    await LeadRepository.findById(id);
+
+  if (!existing) {
+    throw new Error("Lead not found");
+  }
+
+  const budget =
+    data.budgetInr ??
+    existing.budgetInr;
+
+  const source =
+    data.source ??
+    existing.source;
+
+  const inquiryDate =
+    data.inquiryDate
+      ? new Date(data.inquiryDate)
+      : existing.inquiryDate;
+
+  const message =
+    data.message ??
+    existing.message;
+
   const score =
     ScoringService.calculateFinalScore(
-      data.budgetInr,
-      new Date(data.inquiryDate),
-      data.source,
-      data.message
+      budget,
+      inquiryDate,
+      source,
+      message
     );
 
   return LeadRepository.update(id, {
     ...data,
-    inquiryDate: new Date(data.inquiryDate),
     score,
+    inquiryDate,
   });
 }
 }
