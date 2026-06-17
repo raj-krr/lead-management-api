@@ -1,0 +1,201 @@
+id,name,email,phone,source,budget_inr,location,property_type,inquiry_date,message,status
+1,Suresh Singh,suresh.singh760@yahoo.com,+91-7958682846,Referral,17426342,"Hinjewadi, Pune",2BHK Apartment,2026-04-01,"Looking for a property in this area, please share options.",contacted
+2,Shreya Das,shreyadas559@yahoo.com,+91-8929338154,Facebook,20218063,"Koramangala, Bangalore",Studio,2026-04-18,"NRI buyer, looking for investment property.",qualified
+3,Aditya Tiwari,aditya_tiwari@hotmail.com,+91-7338444264,Facebook,32134458,"Baner, Pune",4BHK Apartment,2026-04-25,Is the price negotiable? Looking to close quickly.,contacted
+4,Kiara Das,kiara_das167@outlook.com,+91-7899825838,Facebook,22395871,"Kharadi, Pune",3BHK Apartment,2026-04-25,Looking for ready-to-move-in only.,qualified
+5,Ritu Mishra,ritu.mishra@outlook.com,+91-8722989659,Google,14515702,"Banjara Hills, Hyderabad",4BHK Apartment,2026-04-09,Interested in under-construction with good builder.,qualified
+6,Tara Pillai,tarapillai409@yahoo.com,+91-7594130308,Facebook,2197620,"Thane, Mumbai",3BHK Apartment,2026-04-17,Need vastu-compliant property.,contacted
+7,Kiara Khanna,kiara_khanna@gmail.com,+91-9927923735,Other,31414395,"Thane, Mumbai",Villa,2026-05-19,Interested in under-construction with good builder.,closed
+8,Deepak Gupta,deepakgupta@outlook.com,+91-9744267175,Facebook,11273233,"Koramangala, Bangalore",1BHK Apartment,2026-04-02,"Please call me, prefer evening calls.",new
+9,Ananya Pillai,ananyapillai@gmail.com,+91-9087313121,Walk-in,75749306,"Whitefield, Bangalore",3BHK Apartment,2026-04-02,Looking for a property with parking and gym.,closed
+10,Vikram Mishra,vikrammishra@outlook.com,+91-8713658874,Other,12350099,"Dwarka, Delhi",Plot,2026-05-16,Looking for ready-to-move-in only.,contacted
+11,Aarav Patel,aaravpatel@yahoo.com,+91-7289482182,Other,22377579,"Dwarka, Delhi",4BHK Apartment,2026-05-11,,new
+12,Rahul Pandey,rahul_pandey@gmail.com,+91-9830309370,Google,12835373,"Bandra, Mumbai",2BHK Apartment,2026-05-18,Want to compare a few options before deciding.,contacted
+13,Saanvi Bansal,saanvi.bansal@hotmail.com,+91-9363629219,Referral,38139122,"Andheri West, Mumbai",2BHK Apartment,2026-05-09,Interested in scheduling a site visit this weekend.,new
+14,Aarav Shah,aarav_shah949@outlook.com,+91-8816803306,Facebook,38648491,"Saket, Delhi",3BHK Apartment,2026-04-26,Interested in scheduling a site visit this weekend.,qualified
+15,Vihaan Verma,vihaanverma@gmail.com,+91-9181106786,Referral,14983032,"Powai, Mumbai",4BHK Apartment,2026-05-05,Interested in scheduling a site visit this weekend.,qualified
+16,Riya Roy,riyaroy579@outlook.com,+91-7877286584,Facebook,9456272,"Sector 18, Noida",3BHK Apartment,2026-04-10,Need details on payment plans and possession date.,new
+17,Meera Chopra,meera.chopra@rediffmail.com,+91-8139027119,Referral,6154126,"Indiranagar, Bangalore",Penthouse,2026-05-11,,new
+18,Sneha Menon,snehamenon@outlook.com,+91-7495762348,Other,25215967,"Gachibowli, Hyderabad",Villa,2026-04-09,Interested in under-construction with good builder.,contacted
+19,Diya Pillai,diya.pillai95@outlook.com,+91-7189351213,Referral,28789761,"Koramangala, Bangalore",Plot,2026-05-10,Interested in scheduling a site visit this weekend.,negotiating
+20,Pooja Malhotra,pooja.malhotra@gmail.com,+91-8323959527,Google,42677300,"Sector 62, Noida",4BHK Apartment,2026-04-11,Looking for a property with parking and gym.,closed
+21,Nisha Kumar,nisha.kumar@yahoo.com,+91-8770791023,Referral,31146295,"Golf Course Road, Gurgaon",4BHK Apartment,2026-04-25,,new
+22,Kiara Mehta,kiara_mehta@yahoo.com,+91-7101637979,Facebook,9674183,"Powai, Mumbai",Villa,2026-05-11,"First-time buyer, need guidance on loan options.",closed
+23,Ayaan Pillai,ayaan_pillai183@gmail.com,+91-7465585404,Facebook,18194075,"Banjara Hills, Hyderabad",Studio,2026-04-18,Interested in under-construction with good builder.,new
+24,Tara Sharma,tarasharma@outlook.com,+91-8852408227,Referral,31079675,"Kharadi, Pune",Penthouse,2026-04-24,"Please call me, prefer evening calls.",contacted
+25,Aryan Agarwal,aryanagarwal963@yahoo.com,+91-9643616431,Facebook,18987587,"Andheri West, Mumbai",Villa,2026-05-11,,contacted
+26,Divya Reddy,divyareddy@gmail.com,+91-8218853328,Facebook,10623525,"Powai, Mumbai",4BHK Apartment,2026-04-04,Looking for ready-to-move-in only.,closed
+27,Meera Choudhury,meera.choudhury467@rediffmail.com,+91-7835092972,Walk-in,11705062,"Indiranagar, Bangalore",3BHK Apartment,2026-03-21,Need a property close to metro and schools.,negotiating
+28,Sandeep Khanna,sandeep_khanna@gmail.com,+91-8960488639,Referral,13910914,"Hinjewadi, Pune",Penthouse,2026-04-22,,negotiating
+29,Nisha Choudhury,nisha_choudhury461@yahoo.com,+91-9738735023,Google,36260378,"Indiranagar, Bangalore",Villa,2026-04-22,Need details on payment plans and possession date.,new
+30,Karan Shah,karanshah@gmail.com,+91-8781844052,Google,11975534,"Bandra, Mumbai",4BHK Apartment,2026-03-04,Need vastu-compliant property.,contacted
+31,Pari Menon,pari_menon874@rediffmail.com,+91-9345620385,Walk-in,36382263,"Indiranagar, Bangalore",Villa,2026-04-26,Need vastu-compliant property.,qualified
+32,Kiara Krishnan,kiara.krishnan@hotmail.com,+91-9542160120,Facebook,4695887,"Golf Course Road, Gurgaon",3BHK Apartment,2026-05-10,Need vastu-compliant property.,new
+33,Riya Nair,riya.nair@rediffmail.com,+91-7223705953,Other,15907607,"Powai, Mumbai",1BHK Apartment,2026-03-28,Want to compare a few options before deciding.,new
+34,Rahul Roy,rahul.roy@hotmail.com,+91-8100558303,Walk-in,15187922,"Thane, Mumbai",3BHK Apartment,2026-05-28,Need vastu-compliant property.,closed
+35,Aryan Patel,aryanpatel@gmail.com,+91-9994421136,Walk-in,24061934,"Baner, Pune",1BHK Apartment,2026-05-03,"First-time buyer, need guidance on loan options.",new
+36,Riya Yadav,riya_yadav109@outlook.com,+91-9729817240,Other,7566765,"Golf Course Road, Gurgaon",3BHK Apartment,2026-04-02,,contacted
+37,Arun Chopra,arun_chopra@gmail.com,+91-8197987692,Other,12796514,"Baner, Pune",Studio,2026-05-02,"NRI buyer, looking for investment property.",qualified
+38,Navya Nair,navyanair719@rediffmail.com,+91-7043598698,Facebook,9049282,"Golf Course Road, Gurgaon",Plot,2026-04-24,,qualified
+39,Sai Menon,sai.menon@outlook.com,+91-9851686578,Facebook,13907391,"Sector 62, Noida",Studio,2026-04-30,Budget is flexible for the right property.,new
+40,Nisha Malhotra,nishamalhotra@yahoo.com,+91-9079617090,Google,17754172,"Dwarka, Delhi",Villa,2026-05-03,Want to compare a few options before deciding.,new
+41,Vihaan Malhotra,vihaan_malhotra@hotmail.com,+91-7440610570,Other,12875173,"Saket, Delhi",Plot,2026-04-29,Is the price negotiable? Looking to close quickly.,negotiating
+42,Ira Kapoor,ira.kapoor@yahoo.com,+91-7640798731,Walk-in,45716394,"Indiranagar, Bangalore",2BHK Apartment,2026-04-28,,contacted
+43,Zara Menon,zaramenon440@rediffmail.com,+91-9667292043,Referral,46659453,"HSR Layout, Bangalore",4BHK Apartment,2026-05-03,Need a property close to metro and schools.,new
+44,Zara Saxena,zarasaxena482@gmail.com,+91-7994182853,Google,19421807,"Sohna Road, Gurgaon",2BHK Apartment,2026-04-28,Budget is flexible for the right property.,contacted
+45,Vikram Iyer,vikramiyer153@yahoo.com,+91-7306702926,Referral,39966365,"Baner, Pune",Villa,2026-04-25,Interested in under-construction with good builder.,contacted
+46,Priya Bansal,priya.bansal@hotmail.com,+91-8384360647,Facebook,2960178,"Baner, Pune",1BHK Apartment,2026-05-16,,negotiating
+47,Kabir Chopra,kabir_chopra651@gmail.com,+91-9018679284,Google,16242974,"Thane, Mumbai",3BHK Apartment,2026-05-01,Interested in scheduling a site visit this weekend.,contacted
+48,Anika Nair,anika_nair119@rediffmail.com,+91-7004943787,Facebook,11933143,"Bandra, Mumbai",4BHK Apartment,2026-04-27,Interested in scheduling a site visit this weekend.,new
+49,Sneha Kumar,sneha_kumar449@gmail.com,+91-7123993296,Other,9014745,"Koramangala, Bangalore",Villa,2026-04-04,Is the price negotiable? Looking to close quickly.,contacted
+50,Ayaan Das,ayaan.das511@rediffmail.com,+91-8174350979,Google,12922533,"Indiranagar, Bangalore",Plot,2026-05-10,Interested in under-construction with good builder.,qualified
+51,Riya Joshi,riyajoshi@outlook.com,+91-8282287615,Walk-in,16071968,"Saket, Delhi",3BHK Apartment,2026-04-25,Need vastu-compliant property.,contacted
+52,Anika Choudhury,anika.choudhury@rediffmail.com,+91-8644847276,Google,21464561,"Banjara Hills, Hyderabad",Plot,2026-04-10,Want to compare a few options before deciding.,contacted
+53,Aditya Kumar,adityakumar989@gmail.com,+91-8891100776,Referral,41029960,"Whitefield, Bangalore",Studio,2026-03-05,Interested in under-construction with good builder.,new
+54,Sandeep Shah,sandeepshah83@rediffmail.com,+91-8632127923,Other,19888750,"Saket, Delhi",1BHK Apartment,2026-04-28,Looking for ready-to-move-in only.,qualified
+55,Tara Singh,tarasingh@hotmail.com,+91-7714531298,Facebook,43086402,"Banjara Hills, Hyderabad",1BHK Apartment,2026-04-26,Need a property close to metro and schools.,new
+56,Sai Bose,sai_bose@hotmail.com,+91-9504640817,Referral,9261032,"Sohna Road, Gurgaon",Villa,2026-04-16,Need a property close to metro and schools.,new
+57,Pari Chopra,pari_chopra655@outlook.com,+91-8962094851,Walk-in,11454081,"Saket, Delhi",2BHK Apartment,2026-05-14,"Please call me, prefer evening calls.",new
+58,Manish Shah,manish_shah@rediffmail.com,+91-9133427445,Walk-in,55442984,"Kharadi, Pune",Penthouse,2026-05-07,Want to compare a few options before deciding.,qualified
+59,Suresh Das,suresh.das317@gmail.com,+91-9489250532,Google,9951131,"Banjara Hills, Hyderabad",Studio,2026-05-16,,contacted
+60,Saanvi Yadav,saanvi.yadav264@outlook.com,+91-8454770940,Walk-in,6263313,"Whitefield, Bangalore",4BHK Apartment,2026-04-13,Need vastu-compliant property.,new
+61,Vikram Singh,vikram_singh378@rediffmail.com,+91-8636492037,Walk-in,47270984,"Indiranagar, Bangalore",Plot,2026-05-27,Looking for ready-to-move-in only.,qualified
+62,Suresh Yadav,suresh_yadav932@hotmail.com,+91-7501119337,Referral,60425562,"Saket, Delhi",2BHK Apartment,2026-05-12,Looking for a property with parking and gym.,contacted
+63,Arun Kumar,arun_kumar@hotmail.com,+91-9644206129,Google,42195553,"Sector 62, Noida",4BHK Apartment,2026-05-07,"NRI buyer, looking for investment property.",new
+64,Saanvi Reddy,saanvi.reddy972@gmail.com,+91-9846570058,Google,5358318,"Bandra, Mumbai",Penthouse,2026-05-13,Budget is flexible for the right property.,contacted
+65,Karan Joshi,karan.joshi@outlook.com,+91-7621430136,Other,18396838,"Koramangala, Bangalore",2BHK Apartment,2026-05-27,Need a property close to metro and schools.,new
+66,Krishna Tiwari,krishna_tiwari@gmail.com,+91-9045460840,Google,14960063,"Thane, Mumbai",Plot,2026-03-30,,new
+67,Kavya Sharma,kavya.sharma491@hotmail.com,+91-9946766309,Referral,34883483,"Powai, Mumbai",2BHK Apartment,2026-04-23,"First-time buyer, need guidance on loan options.",contacted
+68,Anil Khanna,anil_khanna465@gmail.com,+91-7491404673,Other,38499741,"HSR Layout, Bangalore",Studio,2026-04-25,Looking for a property with parking and gym.,qualified
+69,Anika Agarwal,anika_agarwal682@outlook.com,+91-7655579180,Facebook,6530497,"Powai, Mumbai",2BHK Apartment,2026-04-28,Interested in scheduling a site visit this weekend.,contacted
+70,Sneha Malhotra,sneha_malhotra@hotmail.com,+91-8518692176,Other,68382812,"Bandra, Mumbai",Villa,2026-04-25,,new
+71,Reyansh Mehta,reyanshmehta@outlook.com,+91-9465740756,Google,14411442,"Kharadi, Pune",1BHK Apartment,2026-04-12,"First-time buyer, need guidance on loan options.",contacted
+72,Kabir Choudhury,kabir.choudhury580@gmail.com,+91-7609346980,Walk-in,46157754,"Dwarka, Delhi",4BHK Apartment,2026-04-21,"First-time buyer, need guidance on loan options.",qualified
+73,Rajesh Bose,rajesh.bose@yahoo.com,+91-7676070354,Walk-in,2342177,"Gachibowli, Hyderabad",Plot,2026-04-16,,new
+74,Tara Singh,tara_singh695@rediffmail.com,+91-9865312534,Google,15055004,"Bandra, Mumbai",1BHK Apartment,2026-05-19,"Please call me, prefer evening calls.",new
+75,Aarav Kapoor,aaravkapoor@yahoo.com,+91-8632978535,Facebook,14373825,"Sector 62, Noida",2BHK Apartment,2026-05-02,Need details on payment plans and possession date.,negotiating
+76,Rajesh Agarwal,rajeshagarwal415@outlook.com,+91-7494665880,Google,51534214,"Kharadi, Pune",Plot,2026-03-11,Looking for ready-to-move-in only.,contacted
+77,Ira Khanna,ira.khanna406@outlook.com,+91-7951644750,Google,13564488,"Thane, Mumbai",4BHK Apartment,2026-04-26,Want to compare a few options before deciding.,new
+78,Kabir Bose,kabir.bose@yahoo.com,+91-9697019445,Facebook,39443723,"Sohna Road, Gurgaon",Penthouse,2026-03-13,,qualified
+79,Saanvi Chopra,saanvi.chopra@outlook.com,+91-8983168873,Facebook,3204088,"Powai, Mumbai",2BHK Apartment,2026-04-20,Interested in scheduling a site visit this weekend.,contacted
+80,Rajesh Das,rajesh.das330@rediffmail.com,+91-7647943369,Other,18605765,"Banjara Hills, Hyderabad",2BHK Apartment,2026-04-18,,contacted
+81,Meera Gupta,meera_gupta382@hotmail.com,+91-8755651176,Walk-in,21757096,"Banjara Hills, Hyderabad",2BHK Apartment,2026-05-04,Want to compare a few options before deciding.,new
+82,Pooja Roy,pooja.roy939@outlook.com,+91-9817733555,Facebook,14983135,"Powai, Mumbai",Villa,2026-04-18,,new
+83,Manish Agarwal,manishagarwal@outlook.com,+91-8326569692,Google,17853968,"Saket, Delhi",4BHK Apartment,2026-04-25,Is the price negotiable? Looking to close quickly.,contacted
+84,Vikram Yadav,vikramyadav@outlook.com,+91-9654424954,Referral,7722056,"Koramangala, Bangalore",3BHK Apartment,2026-05-12,Looking for ready-to-move-in only.,contacted
+85,Aaradhya Pandey,aaradhya_pandey@outlook.com,+91-9913305623,Other,70982819,"Hitech City, Hyderabad",Studio,2026-04-13,Want to compare a few options before deciding.,negotiating
+86,Vihaan Das,vihaan_das896@rediffmail.com,+91-7440619526,Walk-in,7091745,"Hitech City, Hyderabad",2BHK Apartment,2026-04-07,Looking for ready-to-move-in only.,negotiating
+87,Pari Krishnan,pari.krishnan@hotmail.com,+91-9156104136,Google,6369112,"Sector 62, Noida",4BHK Apartment,2026-05-29,Want to compare a few options before deciding.,new
+88,Aadhya Krishnan,aadhya_krishnan@hotmail.com,+91-8926728669,Facebook,41275330,"Gachibowli, Hyderabad",4BHK Apartment,2026-04-12,Is the price negotiable? Looking to close quickly.,qualified
+89,Ananya Menon,ananya.menon@hotmail.com,+91-9744276785,Walk-in,6859886,"Saket, Delhi",1BHK Apartment,2026-04-28,"Looking for a property in this area, please share options.",qualified
+90,Ananya Chopra,ananya_chopra@rediffmail.com,+91-8548781344,Referral,13511546,"Dwarka, Delhi",1BHK Apartment,2026-05-08,Interested in under-construction with good builder.,qualified
+91,Pari Pandey,pari.pandey@gmail.com,+91-9499255738,Walk-in,5743829,"Sector 62, Noida",Penthouse,2026-04-16,Want to compare a few options before deciding.,new
+92,Ritu Bansal,ritu.bansal@gmail.com,+91-7856716405,Other,10202210,"Dwarka, Delhi",Studio,2026-05-02,Interested in scheduling a site visit this weekend.,negotiating
+93,Navya Nair,navya.nair819@hotmail.com,+91-8718080443,Walk-in,32973646,"Banjara Hills, Hyderabad",3BHK Apartment,2026-05-09,Need details on payment plans and possession date.,contacted
+94,Kabir Malhotra,kabir_malhotra@gmail.com,+91-8408405265,Facebook,15110313,"Golf Course Road, Gurgaon",3BHK Apartment,2026-03-16,"NRI buyer, looking for investment property.",qualified
+95,Tara Nair,taranair@gmail.com,+91-9882712850,Facebook,18440160,"Koramangala, Bangalore",1BHK Apartment,2026-05-02,"NRI buyer, looking for investment property.",contacted
+96,Rajesh Verma,rajeshverma158@outlook.com,+91-8597785308,Google,2577535,"Dwarka, Delhi",Penthouse,2026-04-25,Need a property close to metro and schools.,contacted
+97,Sara Krishnan,sarakrishnan121@outlook.com,+91-8916728422,Google,16643063,"Saket, Delhi",4BHK Apartment,2026-05-18,,closed
+98,Divya Choudhury,divya_choudhury684@gmail.com,+91-9362219754,Facebook,25285000,"Koramangala, Bangalore",Penthouse,2026-04-15,,new
+99,Sneha Chopra,sneha_chopra@rediffmail.com,+91-7370292681,Referral,17028149,"Saket, Delhi",Studio,2026-03-15,Need details on payment plans and possession date.,contacted
+100,Divya Khanna,divya_khanna@yahoo.com,+91-8858081385,Facebook,24166156,"Dwarka, Delhi",3BHK Apartment,2026-05-02,Budget is flexible for the right property.,qualified
+101,Sneha Nair,sneha.nair641@rediffmail.com,+91-9291270703,Referral,14928898,"Baner, Pune",3BHK Apartment,2026-05-10,Looking for a property with parking and gym.,qualified
+102,Vivaan Kapoor,vivaankapoor559@outlook.com,+91-9074232200,Google,33626205,"Hitech City, Hyderabad",Plot,2026-04-20,"First-time buyer, need guidance on loan options.",negotiating
+103,Anika Tiwari,anika_tiwari999@yahoo.com,+91-8591458030,Facebook,9055688,"Sohna Road, Gurgaon",2BHK Apartment,2026-04-24,Need vastu-compliant property.,negotiating
+104,Riya Iyer,riya.iyer834@rediffmail.com,+91-8343100352,Google,13635649,"Sohna Road, Gurgaon",Plot,2026-05-20,"NRI buyer, looking for investment property.",new
+105,Aadhya Kapoor,aadhyakapoor904@outlook.com,+91-9305069227,Referral,7247055,"Gachibowli, Hyderabad",Penthouse,2026-04-06,Budget is flexible for the right property.,contacted
+106,Aadhya Patel,aadhya_patel517@rediffmail.com,+91-8201391159,Walk-in,15251602,"Thane, Mumbai",3BHK Apartment,2026-03-24,,new
+107,Aditya Kumar,adityakumar342@rediffmail.com,+91-8962750929,Referral,24690272,"Banjara Hills, Hyderabad",Penthouse,2026-05-21,"First-time buyer, need guidance on loan options.",contacted
+108,Amit Malhotra,amit_malhotra726@hotmail.com,+91-7071455195,Google,33976773,"Baner, Pune",Villa,2026-04-05,Looking for ready-to-move-in only.,qualified
+109,Pooja Kapoor,pooja.kapoor537@yahoo.com,+91-9923699745,Google,16752790,"Thane, Mumbai",4BHK Apartment,2026-05-24,Looking for a property with parking and gym.,contacted
+110,Meera Krishnan,meera_krishnan@yahoo.com,+91-9227727430,Google,16110322,"Saket, Delhi",Studio,2026-05-04,Interested in under-construction with good builder.,qualified
+111,Aryan Iyer,aryan_iyer572@yahoo.com,+91-8278244804,Walk-in,36408221,"Banjara Hills, Hyderabad",Plot,2026-05-14,Is the price negotiable? Looking to close quickly.,contacted
+112,Vikram Shah,vikram_shah839@yahoo.com,+91-8247484671,Referral,45303576,"Sector 62, Noida",Plot,2026-04-06,Interested in under-construction with good builder.,closed
+113,Sandeep Nair,sandeep.nair@yahoo.com,+91-7218035843,Facebook,15702933,"Indiranagar, Bangalore",1BHK Apartment,2026-05-20,Want to compare a few options before deciding.,new
+114,Sneha Krishnan,sneha.krishnan417@hotmail.com,+91-9794042404,Google,61553200,"Hitech City, Hyderabad",1BHK Apartment,2026-05-02,Need a property close to metro and schools.,contacted
+115,Kabir Krishnan,kabir.krishnan857@hotmail.com,+91-7800202342,Other,59425800,"Bandra, Mumbai",1BHK Apartment,2026-05-08,,contacted
+116,Krishna Choudhury,krishnachoudhury480@yahoo.com,+91-7483814153,Google,28632377,"Koramangala, Bangalore",1BHK Apartment,2026-04-15,Need a property close to metro and schools.,qualified
+117,Suresh Pillai,suresh_pillai847@rediffmail.com,+91-8408434291,Referral,26200229,"Whitefield, Bangalore",Plot,2026-04-30,Interested in under-construction with good builder.,closed
+118,Aaradhya Chopra,aaradhyachopra@outlook.com,+91-9807548688,Google,16203591,"Thane, Mumbai",Plot,2026-05-09,"Please call me, prefer evening calls.",qualified
+119,Suresh Krishnan,suresh_krishnan@yahoo.com,+91-7573673552,Facebook,15162613,"Sector 62, Noida",Studio,2026-04-25,Budget is flexible for the right property.,qualified
+120,Divya Mishra,divyamishra@rediffmail.com,+91-8918767949,Facebook,14465180,"Thane, Mumbai",1BHK Apartment,2026-03-20,Need a property close to metro and schools.,new
+121,Neha Bansal,neha.bansal@rediffmail.com,+91-9099500153,Referral,18567601,"Bandra, Mumbai",Plot,2026-05-19,"Please call me, prefer evening calls.",qualified
+122,Ira Nair,ira.nair@rediffmail.com,+91-7313659437,Referral,6069713,"Hinjewadi, Pune",1BHK Apartment,2026-05-11,Looking for a property with parking and gym.,contacted
+123,Sara Bansal,sara_bansal@rediffmail.com,+91-7571186857,Facebook,7994290,"Hinjewadi, Pune",Studio,2026-03-22,Looking for a property with parking and gym.,contacted
+124,Karan Iyer,karan_iyer@outlook.com,+91-7809517372,Other,23786438,"Bandra, Mumbai",Studio,2026-03-27,,contacted
+125,Shreya Choudhury,shreya.choudhury@hotmail.com,+91-8885330933,Google,19490988,"Bandra, Mumbai",3BHK Apartment,2026-05-09,"First-time buyer, need guidance on loan options.",contacted
+126,Ritu Roy,ritu_roy243@yahoo.com,+91-9835590759,Facebook,9616316,"Bandra, Mumbai",3BHK Apartment,2026-04-20,Need vastu-compliant property.,qualified
+127,Anika Saxena,anika_saxena@outlook.com,+91-8616884203,Google,9042775,"Indiranagar, Bangalore",Villa,2026-04-27,,new
+128,Ananya Nair,ananya.nair@hotmail.com,+91-8593765711,Referral,26391503,"Bandra, Mumbai",Villa,2026-05-14,Budget is flexible for the right property.,contacted
+129,Navya Menon,navya.menon@gmail.com,+91-9056949493,Other,26862323,"Sector 18, Noida",4BHK Apartment,2026-04-21,"NRI buyer, looking for investment property.",new
+130,Myra Khanna,myra_khanna@hotmail.com,+91-8375391482,Other,11944595,"Bandra, Mumbai",4BHK Apartment,2026-05-03,Budget is flexible for the right property.,new
+131,Sara Chopra,sara.chopra512@outlook.com,+91-9098611616,Other,13230828,"Sohna Road, Gurgaon",3BHK Apartment,2026-03-25,Need a property close to metro and schools.,negotiating
+132,Vikram Das,vikram.das@gmail.com,+91-9869963931,Referral,2576681,"Indiranagar, Bangalore",2BHK Apartment,2026-05-02,,qualified
+133,Vivaan Sharma,vivaansharma565@gmail.com,+91-7071838242,Facebook,9809835,"Andheri West, Mumbai",Studio,2026-03-16,Want to compare a few options before deciding.,new
+134,Meera Khanna,meera_khanna835@outlook.com,+91-8704657157,Referral,70802818,"Baner, Pune",4BHK Apartment,2026-04-22,Interested in scheduling a site visit this weekend.,new
+135,Sara Shah,sarashah@gmail.com,+91-7736086849,Referral,31115598,"Baner, Pune",2BHK Apartment,2026-03-13,,new
+136,Arjun Roy,arjun_roy@yahoo.com,+91-8350701477,Referral,7419132,"Sector 18, Noida",2BHK Apartment,2026-05-11,"First-time buyer, need guidance on loan options.",contacted
+137,Nisha Kumar,nishakumar@rediffmail.com,+91-8485455239,Referral,19070625,"Powai, Mumbai",Penthouse,2026-04-25,"First-time buyer, need guidance on loan options.",new
+138,Saanvi Pandey,saanvi_pandey@outlook.com,+91-9375278922,Other,16403387,"Baner, Pune",Studio,2026-05-25,Need details on payment plans and possession date.,new
+139,Sara Saxena,sarasaxena158@outlook.com,+91-8549195708,Referral,3292967,"Sohna Road, Gurgaon",Penthouse,2026-05-22,Is the price negotiable? Looking to close quickly.,new
+140,Pari Malhotra,pari.malhotra612@hotmail.com,+91-7053002550,Google,6421022,"Hinjewadi, Pune",4BHK Apartment,2026-04-20,"Please call me, prefer evening calls.",new
+141,Ishaan Patel,ishaan.patel446@hotmail.com,+91-8287426116,Facebook,3055705,"Indiranagar, Bangalore",Plot,2026-04-02,Need vastu-compliant property.,new
+142,Meera Shah,meera_shah451@hotmail.com,+91-9796181989,Other,10379868,"Kharadi, Pune",4BHK Apartment,2026-04-26,,closed
+143,Ananya Joshi,ananya_joshi288@outlook.com,+91-7489144474,Other,14154137,"Koramangala, Bangalore",1BHK Apartment,2026-04-06,Looking for a property with parking and gym.,qualified
+144,Krishna Das,krishna_das248@yahoo.com,+91-8817320723,Walk-in,4507916,"Saket, Delhi",Studio,2026-05-10,Interested in scheduling a site visit this weekend.,qualified
+145,Myra Saxena,myrasaxena@gmail.com,+91-8066143895,Facebook,15854856,"Kharadi, Pune",1BHK Apartment,2026-04-30,"First-time buyer, need guidance on loan options.",closed
+146,Tara Singh,tara.singh101@yahoo.com,+91-9193337732,Walk-in,16537094,"Baner, Pune",4BHK Apartment,2026-05-10,,new
+147,Vivaan Kapoor,vivaan.kapoor303@gmail.com,+91-7498513988,Walk-in,31687971,"Hitech City, Hyderabad",Penthouse,2026-04-30,,qualified
+148,Zara Joshi,zara.joshi@gmail.com,+91-7097002315,Walk-in,16360512,"Koramangala, Bangalore",4BHK Apartment,2026-04-21,,new
+149,Ira Das,ira.das191@hotmail.com,+91-7125379850,Walk-in,35085235,"Baner, Pune",Studio,2026-04-23,Need details on payment plans and possession date.,contacted
+150,Vikram Gupta,vikram_gupta@hotmail.com,+91-7489432865,Google,37707178,"Banjara Hills, Hyderabad",Studio,2026-04-16,Need a property close to metro and schools.,negotiating
+151,Shreya Pandey,shreya_pandey@yahoo.com,+91-8345122542,Referral,8070977,"Sector 62, Noida",3BHK Apartment,2026-04-11,Need a property close to metro and schools.,contacted
+152,Vikram Saxena,vikramsaxena@rediffmail.com,+91-7716681967,Facebook,10277776,"Sohna Road, Gurgaon",1BHK Apartment,2026-03-28,Need vastu-compliant property.,closed
+153,Amit Das,amit_das419@hotmail.com,+91-8906328733,Facebook,2129439,"Indiranagar, Bangalore",Villa,2026-05-24,,contacted
+154,Ayaan Chopra,ayaan.chopra275@rediffmail.com,+91-7178715833,Walk-in,8666525,"Golf Course Road, Gurgaon",2BHK Apartment,2026-04-01,Interested in scheduling a site visit this weekend.,contacted
+155,Pari Choudhury,pari.choudhury@yahoo.com,+91-7901419863,Walk-in,10882609,"Kharadi, Pune",Studio,2026-05-09,Interested in scheduling a site visit this weekend.,contacted
+156,Vikram Nair,vikramnair@outlook.com,+91-8256856463,Google,19395133,"Dwarka, Delhi",2BHK Apartment,2026-05-16,Interested in under-construction with good builder.,negotiating
+157,Krishna Saxena,krishna.saxena@outlook.com,+91-8063239503,Walk-in,36423510,"Whitefield, Bangalore",Villa,2026-03-27,Need details on payment plans and possession date.,contacted
+158,Nisha Nair,nishanair959@hotmail.com,+91-9096135091,Google,2390664,"Sohna Road, Gurgaon",Penthouse,2026-03-27,Budget is flexible for the right property.,contacted
+159,Anika Yadav,anika_yadav@rediffmail.com,+91-9084510429,Walk-in,21624346,"Bandra, Mumbai",2BHK Apartment,2026-03-12,Need a property close to metro and schools.,contacted
+160,Aarav Agarwal,aarav.agarwal@outlook.com,+91-7682802977,Other,23131971,"Sector 62, Noida",Villa,2026-05-24,"Please call me, prefer evening calls.",qualified
+161,Deepak Iyer,deepak_iyer@gmail.com,+91-7004665657,Google,4490072,"Indiranagar, Bangalore",Plot,2026-05-31,Looking for a property with parking and gym.,qualified
+162,Rahul Patel,rahul.patel@gmail.com,+91-7443247229,Google,24601296,"Sector 18, Noida",3BHK Apartment,2026-03-25,Need a property close to metro and schools.,contacted
+163,Arun Reddy,arunreddy@hotmail.com,+91-9646026315,Facebook,22908768,"Thane, Mumbai",3BHK Apartment,2026-04-06,"First-time buyer, need guidance on loan options.",qualified
+164,Ananya Nair,ananyanair@rediffmail.com,+91-9581271298,Facebook,18068942,"Andheri West, Mumbai",Villa,2026-05-05,Interested in scheduling a site visit this weekend.,qualified
+165,Ananya Kapoor,ananya_kapoor@hotmail.com,+91-9740542751,Facebook,5202450,"Sector 62, Noida",Penthouse,2026-05-19,Need a property close to metro and schools.,qualified
+166,Ritu Patel,ritu.patel@gmail.com,+91-8126077199,Google,66707652,"Dwarka, Delhi",Villa,2026-04-17,Need details on payment plans and possession date.,qualified
+167,Vikram Bose,vikram.bose@outlook.com,+91-7339395013,Facebook,18556998,"Whitefield, Bangalore",Penthouse,2026-05-14,Need details on payment plans and possession date.,new
+168,Tara Tiwari,tara.tiwari@gmail.com,+91-8866092821,Referral,5923227,"Hitech City, Hyderabad",3BHK Apartment,2026-05-22,"NRI buyer, looking for investment property.",contacted
+169,Arun Nair,arun.nair@outlook.com,+91-7507049745,Walk-in,3800717,"Gachibowli, Hyderabad",2BHK Apartment,2026-05-14,,contacted
+170,Priya Choudhury,priyachoudhury171@yahoo.com,+91-8095715220,Walk-in,23869954,"Indiranagar, Bangalore",1BHK Apartment,2026-05-22,Need vastu-compliant property.,closed
+171,Kabir Krishnan,kabir.krishnan567@yahoo.com,+91-8382129132,Google,61470484,"Gachibowli, Hyderabad",2BHK Apartment,2026-04-30,Looking for ready-to-move-in only.,negotiating
+172,Aditya Shah,aditya.shah899@outlook.com,+91-8334436786,Google,5133700,"Sector 62, Noida",4BHK Apartment,2026-05-15,"NRI buyer, looking for investment property.",contacted
+173,Priya Mishra,priya.mishra@yahoo.com,+91-7027392783,Other,4271405,"Sector 62, Noida",1BHK Apartment,2026-04-27,,closed
+174,Riya Kapoor,riya.kapoor@outlook.com,+91-7399546384,Referral,19185207,"Dwarka, Delhi",Studio,2026-03-24,Need vastu-compliant property.,new
+175,Rajesh Verma,rajesh_verma@yahoo.com,+91-8252738994,Google,18435476,"Sector 18, Noida",Penthouse,2026-04-18,Is the price negotiable? Looking to close quickly.,new
+176,Rohan Bansal,rohan_bansal322@gmail.com,+91-9301778419,Google,35163821,"Hitech City, Hyderabad",Plot,2026-04-29,Interested in scheduling a site visit this weekend.,new
+177,Anika Kumar,anika.kumar@outlook.com,+91-8701857002,Facebook,28729749,"Koramangala, Bangalore",1BHK Apartment,2026-04-04,Want to compare a few options before deciding.,new
+178,Vihaan Yadav,vihaan.yadav@hotmail.com,+91-8598757527,Facebook,45639791,"Baner, Pune",Villa,2026-03-28,"First-time buyer, need guidance on loan options.",new
+179,Kiara Verma,kiara.verma947@hotmail.com,+91-9130846652,Referral,25798448,"Sector 62, Noida",4BHK Apartment,2026-05-05,"Please call me, prefer evening calls.",contacted
+180,Sneha Kapoor,sneha.kapoor90@hotmail.com,+91-7589424206,Google,18374762,"Dwarka, Delhi",4BHK Apartment,2026-05-02,"NRI buyer, looking for investment property.",contacted
+181,Priya Mehta,priyamehta515@hotmail.com,+91-8161512446,Google,8674549,"Andheri West, Mumbai",Villa,2026-05-24,Looking for ready-to-move-in only.,closed
+182,Reyansh Iyer,reyanshiyer247@rediffmail.com,+91-7240125829,Walk-in,78634044,"Sector 18, Noida",Penthouse,2026-03-02,"First-time buyer, need guidance on loan options.",negotiating
+183,Sandeep Mehta,sandeepmehta29@rediffmail.com,+91-9420671425,Referral,73032777,"Hinjewadi, Pune",Villa,2026-05-06,"First-time buyer, need guidance on loan options.",negotiating
+184,Aryan Pandey,aryan.pandey@outlook.com,+91-7255790920,Referral,7376537,"Thane, Mumbai",Penthouse,2026-05-12,Looking for a property with parking and gym.,qualified
+185,Priya Das,priya_das179@yahoo.com,+91-9858436754,Facebook,10147639,"Hitech City, Hyderabad",3BHK Apartment,2026-04-30,Interested in scheduling a site visit this weekend.,new
+186,Anika Krishnan,anikakrishnan@hotmail.com,+91-7604058666,Google,3454627,"Banjara Hills, Hyderabad",3BHK Apartment,2026-05-03,"First-time buyer, need guidance on loan options.",contacted
+187,Diya Reddy,diya.reddy@outlook.com,+91-8102337464,Walk-in,21615561,"Sector 18, Noida",Plot,2026-05-01,Need vastu-compliant property.,contacted
+188,Sara Singh,sara_singh@yahoo.com,+91-8938264714,Referral,29895492,"Andheri West, Mumbai",Penthouse,2026-05-07,Need a property close to metro and schools.,qualified
+189,Sneha Pillai,sneha.pillai347@gmail.com,+91-8852519609,Other,19927582,"Golf Course Road, Gurgaon",3BHK Apartment,2026-05-25,Interested in under-construction with good builder.,qualified
+190,Aaradhya Iyer,aaradhya.iyer51@rediffmail.com,+91-9360783034,Walk-in,11053704,"Andheri West, Mumbai",Studio,2026-05-23,Is the price negotiable? Looking to close quickly.,new
+191,Rohan Das,rohan_das84@gmail.com,+91-8324367744,Walk-in,16090411,"Gachibowli, Hyderabad",2BHK Apartment,2026-04-14,Need a property close to metro and schools.,contacted
+192,Diya Bansal,diya_bansal@outlook.com,+91-9423420650,Referral,23244802,"Powai, Mumbai",Penthouse,2026-04-16,Interested in scheduling a site visit this weekend.,negotiating
+193,Neha Agarwal,nehaagarwal704@rediffmail.com,+91-8012074766,Facebook,2145661,"Dwarka, Delhi",3BHK Apartment,2026-05-11,Budget is flexible for the right property.,negotiating
+194,Krishna Verma,krishna_verma81@yahoo.com,+91-9693916084,Referral,10364506,"Powai, Mumbai",2BHK Apartment,2026-04-29,,negotiating
+195,Aarav Pandey,aaravpandey639@gmail.com,+91-8780016559,Referral,14775699,"Thane, Mumbai",2BHK Apartment,2026-04-16,"NRI buyer, looking for investment property.",negotiating
+196,Diya Shah,diyashah498@gmail.com,+91-7739592196,Google,15211540,"Sector 18, Noida",1BHK Apartment,2026-05-09,,closed
+197,Myra Sharma,myra_sharma838@outlook.com,+91-8204079697,Walk-in,23295629,"Indiranagar, Bangalore",3BHK Apartment,2026-05-16,Looking for a property with parking and gym.,qualified
+198,Sai Reddy,sai_reddy217@hotmail.com,+91-9218356672,Other,37289583,"Koramangala, Bangalore",2BHK Apartment,2026-04-24,"Looking for a property in this area, please share options.",new
+199,Aryan Yadav,aryan.yadav@hotmail.com,+91-7217150457,Other,29193160,"Sector 62, Noida",Plot,2026-04-10,"NRI buyer, looking for investment property.",contacted
+200,Zara Gupta,zara_gupta601@outlook.com,+91-7702285630,Walk-in,18939688,"Powai, Mumbai",Villa,2026-03-18,Looking for ready-to-move-in only.,qualified
