@@ -18,6 +18,10 @@ export class LeadService {
   });
 }
 
+  static async getStats() {
+  return LeadRepository.getStats();
+  }
+  
   static async getLead(id: number) {
     return LeadRepository.findById(id);
   }

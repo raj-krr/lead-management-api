@@ -82,3 +82,17 @@ export const deleteLead = async (
     message: "Lead deleted",
   });
 };
+
+export const getStats = async (
+  req: Request,
+  res: Response
+) => {
+
+  const stats =
+    await LeadService.getStats();
+
+  res.status(200).json({
+    success: true,
+    data: stats
+  });
+};

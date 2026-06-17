@@ -12,7 +12,7 @@
 
     "skipLibCheck": true,
 
-    "forceConsistentCasingInFileNames": true
+    "types": ["node", "jest"]
   },
 
   "include": ["src/**/*"]

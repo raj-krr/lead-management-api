@@ -1,0 +1,514 @@
+openapi: 3.0.0
+
+info:
+  title: "DECTIFY Lead Management API"
+  version: "1.0.0"
+  description: >
+    Lead Management and Scoring Backend.
+    Features include CRUD operations,
+    CSV import, lead scoring,
+    filtering, pagination,
+    analytics and API key authentication.
+    
+    **Authentication:** Click the 🔒 Authorize button and enter: `dectify-secret-key`
+
+servers:
+  - url: http://localhost:5000
+
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-Key
+
+  schemas:
+    Lead:
+      type: object
+      properties:
+        name:
+          type: string
+          example: Raj Kumar
+
+        email:
+          type: string
+          example: raj@example.com
+
+        phone:
+          type: string
+          example: "9876543210"
+
+        source:
+          type: string
+          enum:
+            - Referral
+            - Google
+            - Facebook
+            - WalkIn
+            - Other
+          example: Referral
+
+        budgetInr:
+          type: integer
+          example: 10000000
+
+        location:
+          type: string
+          example: Delhi
+
+        propertyType:
+          type: string
+          example: 2BHK
+
+        inquiryDate:
+          type: string
+          format: date
+          example: "2026-05-20"
+
+        message:
+          type: string
+          example: Looking for a property in Delhi
+
+        status:
+          type: string
+          enum:
+            - new
+            - contacted
+            - qualified
+            - negotiating
+            - closed
+          example: new
+
+    LeadResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        data:
+          $ref: "#/components/schemas/Lead"
+
+    LeadsListResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/Lead"
+
+    ErrorResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: false
+        message:
+          type: string
+          example: Lead not found
+
+    DeleteResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        message:
+          type: string
+          example: Lead deleted
+
+    ImportResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        data:
+          type: object
+          properties:
+            imported:
+              type: integer
+              example: 42
+            failed:
+              type: integer
+              example: 2
+
+security:
+  - ApiKeyAuth: []
+
+paths:
+  /api/leads/stats:
+    get:
+      summary: Lead Analytics
+      description: Returns aggregated statistics about all leads.
+      tags:
+        - Analytics
+      security:
+        - ApiKeyAuth: []
+      responses:
+        "200":
+          description: Statistics fetched successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    example: true
+                  data:
+                    type: object
+                    properties:
+                      total:
+                        type: integer
+                        example: 120
+                      bySource:
+                        type: object
+                        example:
+                          Referral: 40
+                          Google: 30
+                          Facebook: 20
+                          WalkIn: 20
+                          Other: 10
+                      byStatus:
+                        type: object
+                        example:
+                          new: 50
+                          contacted: 30
+                          qualified: 20
+                          negotiating: 15
+                          closed: 5
+                      avgScore:
+                        type: number
+                        example: 67.4
+        "401":
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+  /api/leads:
+    get:
+      summary: Get All Leads
+      description: >
+        Fetch all leads with support for filtering by source, score range,
+        date range, sorting by score, and pagination.
+      tags:
+        - Leads
+      security:
+        - ApiKeyAuth: []
+      parameters:
+        - in: query
+          name: page
+          description: Page number for pagination
+          schema:
+            type: integer
+            default: 1
+            example: 1
+
+        - in: query
+          name: limit
+          description: Number of leads per page
+          schema:
+            type: integer
+            default: 10
+            example: 10
+
+        - in: query
+          name: source
+          description: Filter leads by source
+          schema:
+            type: string
+            enum:
+              - Referral
+              - Google
+              - Facebook
+              - WalkIn
+              - Other
+            example: Referral
+
+        - in: query
+          name: status
+          description: Filter leads by status
+          schema:
+            type: string
+            enum:
+              - new
+              - contacted
+              - qualified
+              - negotiating
+              - closed
+            example: new
+
+        - in: query
+          name: minScore
+          description: Minimum lead score filter
+          schema:
+            type: integer
+            example: 50
+
+        - in: query
+          name: maxScore
+          description: Maximum lead score filter
+          schema:
+            type: integer
+            example: 90
+
+        - in: query
+          name: sort
+          description: Sort leads by score (asc or desc)
+          schema:
+            type: string
+            enum:
+              - asc
+              - desc
+            example: desc
+
+        - in: query
+          name: startDate
+          description: Filter leads with inquiryDate on or after this date (YYYY-MM-DD)
+          schema:
+            type: string
+            format: date
+            example: "2026-04-01"
+
+        - in: query
+          name: endDate
+          description: Filter leads with inquiryDate on or before this date (YYYY-MM-DD)
+          schema:
+            type: string
+            format: date
+            example: "2026-05-01"
+
+        - in: query
+          name: location
+          description: Filter leads by location
+          schema:
+            type: string
+            example: Delhi
+
+        - in: query
+          name: propertyType
+          description: Filter leads by property type
+          schema:
+            type: string
+            example: 2BHK
+
+      responses:
+        "200":
+          description: Leads fetched successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/LeadsListResponse"
+        "401":
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+    post:
+      summary: Create Lead
+      description: Create a new lead entry.
+      tags:
+        - Leads
+      security:
+        - ApiKeyAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Lead"
+            example:
+              name: Raj Kumar
+              email: raj@example.com
+              phone: "9876543210"
+              source: Referral
+              budgetInr: 10000000
+              location: Delhi
+              propertyType: 2BHK
+              inquiryDate: "2026-05-20"
+              message: Looking for a property in Delhi
+              status: new
+      responses:
+        "201":
+          description: Lead created successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/LeadResponse"
+        "400":
+          description: Bad request / validation error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "401":
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+  /api/leads/{id}:
+    get:
+      summary: Get Lead By ID
+      description: Fetch a single lead by its ID.
+      tags:
+        - Leads
+      security:
+        - ApiKeyAuth: []
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: Numeric ID of the lead
+          schema:
+            type: integer
+            example: 1
+      responses:
+        "200":
+          description: Lead found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/LeadResponse"
+        "404":
+          description: Lead not found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "401":
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+    patch:
+      summary: Update Lead
+      description: Partially update an existing lead by ID.
+      tags:
+        - Leads
+      security:
+        - ApiKeyAuth: []
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: Numeric ID of the lead to update
+          schema:
+            type: integer
+            example: 1
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Lead"
+            example:
+              status: contacted
+              message: Followed up via call
+      responses:
+        "200":
+          description: Lead updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/LeadResponse"
+        "404":
+          description: Lead not found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "401":
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+    delete:
+      summary: Delete Lead
+      description: Delete a lead by its ID.
+      tags:
+        - Leads
+      security:
+        - ApiKeyAuth: []
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: Numeric ID of the lead to delete
+          schema:
+            type: integer
+            example: 1
+      responses:
+        "200":
+          description: Lead deleted successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DeleteResponse"
+        "404":
+          description: Lead not found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "401":
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+  /api/import:
+    post:
+      summary: Import Leads via CSV
+      description: >
+        Upload a CSV file to bulk-import leads.
+        The CSV should have columns matching the Lead schema fields.
+      tags:
+        - Import
+      security:
+        - ApiKeyAuth: []
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              required:
+                - file
+              properties:
+                file:
+                  type: string
+                  format: binary
+                  description: CSV file containing lead records
+      responses:
+        "200":
+          description: CSV imported successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ImportResponse"
+        "400":
+          description: No file provided or invalid CSV
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "401":
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"

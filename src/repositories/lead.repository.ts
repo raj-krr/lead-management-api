@@ -61,6 +61,24 @@ static async findAll(query: any) {
       data,
     });
   }
+  static async getStats() {
+
+  const totalLeads =
+    await prisma.lead.count();
+
+  const avgScore =
+    await prisma.lead.aggregate({
+      _avg: {
+        score: true
+      }
+    });
+
+  return {
+    totalLeads,
+    averageScore:
+      avgScore._avg.score || 0
+  };
+}
 
   static async delete(id: number) {
     return prisma.lead.delete({
@@ -68,3 +86,4 @@ static async findAll(query: any) {
     });
   }
 }
+

@@ -5,7 +5,23 @@ import importRoutes from "./routes/import.routes";
 
 const app = express();
 
+import { apiKeyAuth } from "./middleware/apiKey.middleware";
+
+import swaggerUi from "swagger-ui-express";
+import YAML from "yamljs";
+
+const swaggerDocument =
+  YAML.load("./swagger/swagger.yaml");
+
+  app.use(
+  "/api-docs",
+  swaggerUi.serve,
+  swaggerUi.setup(swaggerDocument)
+);
+app.use(apiKeyAuth);
+
 app.use(express.json());
+
 
 app.use("/api/leads", leadRoutes);
 
