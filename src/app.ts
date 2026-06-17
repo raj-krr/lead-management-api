@@ -2,7 +2,7 @@ import express from "express";
 
 import leadRoutes from "./routes/lead.routes";
 import importRoutes from "./routes/import.routes";
-
+import { limiter } from "./middleware/rateLimit.middleware";
 const app = express();
 
 import { apiKeyAuth } from "./middleware/apiKey.middleware";
@@ -21,6 +21,7 @@ const swaggerDocument =
 app.use(apiKeyAuth);
 
 app.use(express.json());
+app.use(limiter);
 
 
 app.use("/api/leads", leadRoutes);
